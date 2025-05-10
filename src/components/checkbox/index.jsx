@@ -4,7 +4,7 @@ const onChange = (e) => {
   console.log(`checked = ${e.target.checked}`);
 };
 const CheckboxCustom = () => (
-  <Checkbox style={{ color: "red" }} onChange={onChange}>
+  <Checkbox style={{ color: "blue" }} onChange={onChange}>
     Checkbox
   </Checkbox>
 );
